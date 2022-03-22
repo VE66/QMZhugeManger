@@ -1,0 +1,30 @@
+{
+  "name": "QMZhugeManger",
+  "version": "0.1.0",
+  "summary": "A short description of QMZhugeManger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/VE66/QMZhugeManger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VE66": "942914231@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/VE66/QMZhugeManger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QMZhugeManger/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+
+    ],
+    "ZhugeioAnalytics": [
+
+    ]
+  }
+}

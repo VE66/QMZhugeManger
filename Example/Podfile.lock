@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - QMZhugeManger (0.1.0):
+    - FMDB
+    - ZhugeioAnalytics
+  - ZhugeioAnalytics (3.4.23)
+
+DEPENDENCIES:
+  - QMZhugeManger (from `../`)
+  - ZhugeioAnalytics
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - ZhugeioAnalytics
+
+EXTERNAL SOURCES:
+  QMZhugeManger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  QMZhugeManger: 30ad5e3b84d0f6d20bdc3620429bb2a19c49bc10
+  ZhugeioAnalytics: e7796954aa59e2caa1cbe9cb560e2099d03f5028
+
+PODFILE CHECKSUM: 0c21aecdc9dcbd2b38d60d6e6e8ebbc58d387753
+
+COCOAPODS: 1.11.2

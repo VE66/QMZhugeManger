@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2345ED153627B39657149060 /* Pods_QMZhugeManger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMZhugeManger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59F68B572B3AED5B681F12C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		59F68B572B3AED5B681F12C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QMZhugeManger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMZhugeManger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		83C004AE70D09FE0FAD6DB45 /* Pods-QMZhugeManger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMZhugeManger_Example.release.xcconfig"; path = "Target Support Files/Pods-QMZhugeManger_Example/Pods-QMZhugeManger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		84C95C13567D03EDF68D7A70 /* Pods_QMZhugeManger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMZhugeManger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FFD35E80C7EF35508C3A034 /* QMZhugeManger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QMZhugeManger.podspec; path = ../QMZhugeManger.podspec; sourceTree = "<group>"; };
+		9FFD35E80C7EF35508C3A034 /* QMZhugeManger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QMZhugeManger.podspec; path = ../QMZhugeManger.podspec; sourceTree = "<group>"; };
 		B89B329BC20093EF28BF38F7 /* Pods-QMZhugeManger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMZhugeManger_Example.debug.xcconfig"; path = "Target Support Files/Pods-QMZhugeManger_Example/Pods-QMZhugeManger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D7081A76D3E6EA0A45A27F3B /* Pods-QMZhugeManger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMZhugeManger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QMZhugeManger_Tests/Pods-QMZhugeManger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E771401D58E2E03FE4B7E10C /* Pods-QMZhugeManger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMZhugeManger_Tests.release.xcconfig"; path = "Target Support Files/Pods-QMZhugeManger_Tests/Pods-QMZhugeManger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EAFD258167F12AC36B2DED9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EAFD258167F12AC36B2DED9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				D7081A76D3E6EA0A45A27F3B /* Pods-QMZhugeManger_Tests.debug.xcconfig */,
 				E771401D58E2E03FE4B7E10C /* Pods-QMZhugeManger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,7 +247,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = VE66;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X54BPV8374;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = X54BPV8374;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,11 +350,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QMZhugeManger_Example/Pods-QMZhugeManger_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/QMZhugeManger/QMZhugeManger.framework",
+				"${BUILT_PRODUCTS_DIR}/ZhugeioAnalytics/ZhugeioAnalytics.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMZhugeManger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZhugeioAnalytics.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +502,7 @@
 			baseConfigurationReference = B89B329BC20093EF28BF38F7 /* Pods-QMZhugeManger_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X54BPV8374;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QMZhugeManger/QMZhugeManger-Prefix.pch";
 				INFOPLIST_FILE = "QMZhugeManger/QMZhugeManger-Info.plist";
@@ -510,6 +519,7 @@
 			baseConfigurationReference = 83C004AE70D09FE0FAD6DB45 /* Pods-QMZhugeManger_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X54BPV8374;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QMZhugeManger/QMZhugeManger-Prefix.pch";
 				INFOPLIST_FILE = "QMZhugeManger/QMZhugeManger-Info.plist";
@@ -526,6 +536,7 @@
 			baseConfigurationReference = D7081A76D3E6EA0A45A27F3B /* Pods-QMZhugeManger_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X54BPV8374;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +562,7 @@
 			baseConfigurationReference = E771401D58E2E03FE4B7E10C /* Pods-QMZhugeManger_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X54BPV8374;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
