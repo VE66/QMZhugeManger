@@ -41,7 +41,7 @@
     return self;
 }
 
-+ (void)setAccessid:(NSString *)accessId userId:(NSString *)userId userName:(nonnull NSString *)userName version:(nonnull NSString *)version sid:(NSString *)sid {
++ (void)registerAccessid:(NSString *)accessId userId:(NSString *)userId userName:(nonnull NSString *)userName version:(nonnull NSString *)version sid:(NSString *)sid {
     QMZhugeManager.shared.accessId = accessId;
     QMZhugeManager.shared.userId = userId;
     QMZhugeManager.shared.userName = userName;

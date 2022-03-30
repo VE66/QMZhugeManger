@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [QMZhugeManager setAccessid:@"ccdb6800-ff6d-11e9-8018-cbe6b3476ac1" userId:@"userID:1234567" userName:@"userName788" version:@"v4.1.0" sid:@""];
+    [QMZhugeManager registerAccessid:@"ccdb6800-ff6d-11e9-8018-cbe6b3476ac1" userId:@"userID:1234567" userName:@"userName788" version:@"v4.1.0" sid:@""];
     [QMZhugeManager trackEvent:@"你好"];
     
 }

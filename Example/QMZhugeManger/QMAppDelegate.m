@@ -7,12 +7,14 @@
 //
 
 #import "QMAppDelegate.h"
+#import "QMAppLaunchTime.h"
 
 @implementation QMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [QMAppLaunchTime mark];
     return YES;
 }
 

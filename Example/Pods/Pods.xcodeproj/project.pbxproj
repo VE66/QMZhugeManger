@@ -419,7 +419,7 @@
 		59022688F11840E4EC3D049F03364435 /* QMNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMNetworkManager.m; sourceTree = "<group>"; };
 		5ABD7EFC75A575D976629903385C582D /* UIView+MPHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MPHelpers.m"; path = "Zhugeio/Codeless/UIView+MPHelpers.m"; sourceTree = "<group>"; };
 		5B55A0113336E022B26642916703F977 /* ZAViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZAViews.m; path = Zhugeio/AutoTrack/ZAViews.m; sourceTree = "<group>"; };
-		5D278EAE2DCD29A11762EEB330494186 /* QMZhugeManger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMZhugeManger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D278EAE2DCD29A11762EEB330494186 /* QMZhugeManger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMZhugeManger.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5D995B798FF1CAB1285757C9F8EF6B57 /* ZGVariant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGVariant.m; path = Zhugeio/Codeless/ZGVariant.m; sourceTree = "<group>"; };
 		5DBAF178D140C86ED679E44F705194D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5E1834E2E18B8466CFA8D12399D7752C /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MPImageEffects.h"; path = "Zhugeio/Codeless/UIImage+MPImageEffects.h"; sourceTree = "<group>"; };
@@ -485,7 +485,7 @@
 		9141A72E94A0F4018C2C77EB259B01FB /* DLServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLServerRequest.m; path = Zhugeio/DeepShare/DLServerRequest.m; sourceTree = "<group>"; };
 		915C3A4711F00A77CCF17AC8D241964F /* DeepShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeepShare.h; path = Zhugeio/DeepShare/DeepShare.h; sourceTree = "<group>"; };
 		91ACC977D4F768AE4072969FA39C0B6B /* Pods-QMZhugeManger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMZhugeManger_Example.modulemap"; sourceTree = "<group>"; };
-		95302C09040CE48853D721A1ED5CD676 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		95302C09040CE48853D721A1ED5CD676 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9678BFBDB644EE64D8C4C68FAB9258D9 /* Zhuge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Zhuge.m; path = Zhugeio/ZGCore/Zhuge.m; sourceTree = "<group>"; };
 		9733A03681A3951555ADB263AA29F907 /* ZhugeJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeJS.h; path = Zhugeio/ZGCore/ZhugeJS.h; sourceTree = "<group>"; };
 		975B895835614587242A707477D0964D /* DLStrongMatchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLStrongMatchHelper.h; path = Zhugeio/DeepShare/DLStrongMatchHelper.h; sourceTree = "<group>"; };
@@ -493,7 +493,7 @@
 		9994985200DE5642136000B43683744C /* MPCATransform3DToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCATransform3DToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPCATransform3DToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
 		99E227087C165991222DEA468249CF30 /* ZGSharedDur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGSharedDur.m; path = Zhugeio/ZGSee/ZGSharedDur.m; sourceTree = "<group>"; };
 		9C5540DA6B91C6A834856F21EDFDAED9 /* UIImage+MPAverageColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPAverageColor.m"; path = "Zhugeio/Codeless/UIImage+MPAverageColor.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF4653577ADA97FA6C7AF1395F0C552 /* MPSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSwizzle.h; path = Zhugeio/Codeless/MPSwizzle.h; sourceTree = "<group>"; };
 		9E39E75D1225FEB04844269D6E8318D4 /* ZGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGReachability.h; path = Zhugeio/ZGSee/ZGReachability.h; sourceTree = "<group>"; };
 		9EB560420BD9423FC8B272B265C2C3FD /* MPEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPEnumDescription.m; path = Zhugeio/Codeless/MPEnumDescription.m; sourceTree = "<group>"; };
@@ -588,7 +588,7 @@
 		ECA9139388183F1CF19E19A11C80B557 /* UIColor+MPColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MPColor.m"; path = "Zhugeio/Codeless/UIColor+MPColor.m"; sourceTree = "<group>"; };
 		ECBC84441EADCF2B80B94E47A22239F4 /* MPDesignerSessionCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDesignerSessionCollection.h; path = Zhugeio/Codeless/MPDesignerSessionCollection.h; sourceTree = "<group>"; };
 		EEFEE12EE82890E363D8CAFD7EED090A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F0439DCDB17F23E95B472F0A4802AAB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F0439DCDB17F23E95B472F0A4802AAB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F063514CCB29B722E4CC502258B34546 /* MPBOOLToNSNumberValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBOOLToNSNumberValueTransformer.m; path = Zhugeio/Codeless/MPBOOLToNSNumberValueTransformer.m; sourceTree = "<group>"; };
 		F15D493B1A1B5481C6E62BB440F537A0 /* ZGRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGRequestManager.h; path = Zhugeio/Utils/ZGRequestManager.h; sourceTree = "<group>"; };
 		F41C00F5ADC5AE112377183FD5278020 /* MPUICollectionViewBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUICollectionViewBinding.m; path = Zhugeio/Codeless/MPUICollectionViewBinding.m; sourceTree = "<group>"; };
@@ -765,7 +765,6 @@
 				F148059129C8279772DEA7B45311BD2A /* standard */,
 				EC2B3F667130444481B888D939D92915 /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -1051,7 +1050,6 @@
 				1D166AF21334E1368798D56A23F45B45 /* ZhugeSwizzle.m */,
 				B9425EE5E4024763724818B471AA4528 /* Support Files */,
 			);
-			name = ZhugeioAnalytics;
 			path = ZhugeioAnalytics;
 			sourceTree = "<group>";
 		};
@@ -2056,8 +2054,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

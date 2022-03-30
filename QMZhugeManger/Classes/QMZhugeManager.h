@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface QMZhugeManager : NSObject
 + (instancetype)shared;
 
-+ (void)setAccessid:(NSString *)accessId userId:(NSString *)userId userName:(NSString *)userName version:(NSString *)version sid:(NSString *)sid;
++ (void)registerAccessid:(NSString *)accessId userId:(NSString *)userId userName:(NSString *)userName version:(NSString *)version sid:(NSString *)sid;
 + (void)trackEvent:(NSString *)eventName;
 + (void)trackNetWorking:(NSDictionary *)event;
 // 真正sid回来时，修正sid

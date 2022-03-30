@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DEE0D6827F3FAEF00AFA892 /* QMAppLaunchTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE0D6727F3FAEF00AFA892 /* QMAppLaunchTime.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		2345ED153627B39657149060 /* Pods_QMZhugeManger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMZhugeManger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEE0D6627F3FAEF00AFA892 /* QMAppLaunchTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMAppLaunchTime.h; sourceTree = "<group>"; };
+		3DEE0D6727F3FAEF00AFA892 /* QMAppLaunchTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMAppLaunchTime.m; sourceTree = "<group>"; };
 		59F68B572B3AED5B681F12C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QMZhugeManger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMZhugeManger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QMViewController.h */,
 				6003F5A6195388D20070C39A /* QMViewController.m */,
+				3DEE0D6627F3FAEF00AFA892 /* QMAppLaunchTime.h */,
+				3DEE0D6727F3FAEF00AFA892 /* QMAppLaunchTime.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -373,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* QMAppDelegate.m in Sources */,
+				3DEE0D6827F3FAEF00AFA892 /* QMAppLaunchTime.m in Sources */,
 				6003F5A7195388D20070C39A /* QMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
